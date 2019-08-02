@@ -43,12 +43,16 @@ html {
 }
 
 body {
-  background:#000000 url(images/vk-bg.png) no-repeat !important;
+  background-image:url(images/vk-bg.png);
   background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header{
-  height: 100px;
+  height: 100px;  
   padding: 0 20px;
   color: #fff;
   width: 1252px;
@@ -495,12 +499,9 @@ ul.menu li a{
 }
 
 #fground{
-  background-image: url('./images/fground.jpg');
-  min-height: 250px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image:url(images/fground.jpg);
+  min-height: 50vh;
+  
 }
 
 
